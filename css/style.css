@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Lateef:wght@400;700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+
+/* A TODOS LOS ELEMENTOS EXISTENTES EN EL HTML... */
+
+* {
+  margin: 5px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #40434E;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Madimi One", sans-serif;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+
+}
+
+header {
+  max-width: 1000px;
+  margin: 0 auto;
+  overflow: auto;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+}
+
+header h1 {
+  float: left;
+}
+
+header img{
+  width: 70px;
+  border-radius: 10px;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  list-style: none;
+  border: white;
+}
+
+nav ul li {
+    background-color: white;
+    border: black 2px solid;
+    float: left;
+    margin-right: 10px;
+    padding: 0 4px;
+    border-radius: 20px;
+}
+
+nav ul li a{
+  color: black;
+  padding: 0 4px;
+  text-decoration: none;
+}
+
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 20px;
+}
+
+table td#left {
+  width: 60%;
+}
+
+table td#right {
+  width: 40%;
+  vertical-align: top;
+}
+
+table td h2 {
+  margin: 30px 0 40px;
+}
+
+table td h3 {
+  margin: 15px 0;
+}
+
+table td p {
+  margin-bottom: 10px;
+}
